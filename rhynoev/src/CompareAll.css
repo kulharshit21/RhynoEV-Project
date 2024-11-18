@@ -1,0 +1,48 @@
+.compare-all {
+    padding: 5%;
+    text-align: center;
+}
+
+.compare-all h1 {
+    margin-bottom: 1em;
+}
+
+.compare-all table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.compare-all th, .compare-all td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.compare-all th {
+    background-color: #f4f4f4;
+}
+
+.compare-all td {
+    background-color: #fff;
+}
+
+.compare-all tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.compare-all button.buy-now {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 0.5em 1em;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 2em;
+    transition: background-color 0.3s;
+}
+
+.compare-all button.buy-now:hover {
+    background-color: #0056b3;
+}

@@ -1,0 +1,48 @@
+.rentals {
+    padding: 5%;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .rentals h1 {
+    text-align: center;
+    margin-bottom: 1em;
+    font-size: 2em;
+  }
+  
+  .rentals form {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+  }
+  
+  .rentals label {
+    font-size: 1em;
+  }
+  
+  .rentals input, .rentals select, .rentals textarea {
+    width: 100%;
+    padding: 0.8em;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1em;
+  }
+  
+  .rentals button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 1em;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  .rentals button:hover {
+    background-color: #0056b3;
+  }
+  

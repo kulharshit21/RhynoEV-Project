@@ -1,0 +1,28 @@
+/* src/WebsitePolicy.css */
+.website-policy {
+    padding: 2em;
+    max-width: 800px;
+    margin: 2em auto;
+    text-align: left;
+  }
+  
+  .website-policy h1 {
+    font-size: 2em;
+    margin-bottom: 1em;
+    text-align: center;
+  }
+  
+  .website-policy p {
+    margin: 0.5em 0;
+    font-size: 1em;
+  }
+  
+  .website-policy ul {
+    list-style-type: disc;
+    margin-left: 2em;
+  }
+  
+  .website-policy li {
+    margin: 0.5em 0;
+  }
+  

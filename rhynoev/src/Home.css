@@ -1,0 +1,125 @@
+.home {
+  padding: 4em 2em; /* Increased padding to push content away from the header */
+  background-color: #f4f4f4; /* Light background to distinguish from header */
+}
+
+.hero-box {
+  position: relative;
+  overflow: hidden;
+  background-color: #fff;
+  padding: 2em;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 0 auto; /* Center the hero section */
+  max-width: 800px; /* Limit the width for better readability */
+}
+
+.background-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1; /* Place the video behind the content */
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1; /* Ensure content is above the video */
+}
+
+.hero-content h2 {
+  font-size: 1.8em;
+  text-align: center;
+  margin: 0;
+}
+
+#changing-word {
+  color: #007bff; /* Highlight the changing word */
+  font-weight: bold;
+}
+
+.moto-image {
+  margin-top: 2em;
+  text-align: center;
+}
+
+.moto-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.usp {
+  margin-top: 2em;
+  text-align: center;
+}
+
+.usp-container {
+  background-color: #fff;
+  padding: 2em;
+  border: 2px solid #007bff;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+  max-width: 800px;
+  position: relative;
+  padding-left: 4cm; /* 4 cm left padding */
+  padding-right: 4cm; /* 4 cm right padding */
+}
+
+.usp-container h3 {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+
+.usp-container p {
+  font-size: 1em;
+}
+
+.usp-nav {
+  margin-top: 1em;
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+}
+
+.usp-button {
+  padding: 0.5em 1em;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1em;
+  transition: background-color 0.3s;
+}
+
+.usp-button:hover {
+  background-color: #0056b3;
+}
+
+.our-products {
+  margin-top: 2em;
+  text-align: center;
+}
+
+.our-products h3 {
+  margin-bottom: 1em;
+}
+
+.product-images {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+}
+
+.product-images img {
+  max-width: 33%; /* Ensure images take equal width */
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}

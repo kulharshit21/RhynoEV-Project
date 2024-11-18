@@ -1,0 +1,30 @@
+.pre-book {
+    padding: 7%;
+    text-align: center;
+}
+
+.pre-book form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.pre-book label {
+    text-align: left;
+}
+
+.pre-book button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 0.5em 1em;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.pre-book button:hover {
+    background-color: #0056b3;
+}

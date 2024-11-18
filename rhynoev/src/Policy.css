@@ -1,0 +1,19 @@
+/* src/Policy.css */
+.policy-page {
+    padding: 2em;
+    max-width: 800px;
+    margin: 2em auto;
+    text-align: left;
+  }
+  
+  .policy-page h1 {
+    font-size: 2em;
+    margin-bottom: 1em;
+    text-align: center;
+  }
+  
+  .policy-page p {
+    margin: 0.5em 0;
+    font-size: 1em;
+  }
+  
